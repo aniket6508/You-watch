@@ -1,5 +1,5 @@
 import NavBar from './components/NavBar'
-import Trending from './components/Trending'
+import Top from './components/top'
 import './App.css'
 import Carousel from './components/Carousel'
 import Anime from './components/anime'
@@ -9,6 +9,7 @@ function App() {
     <div>
       <NavBar/>
       <Carousel />
+      <Top/>
       <Anime/>
       </div>
   )
